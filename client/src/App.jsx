@@ -1,5 +1,12 @@
+
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from 'react-router-dom';
+
 import { AuthProvider } from './context/AuthContext';
 
 // Components
@@ -22,33 +29,66 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import NotFoundPage from './pages/NotFoundPage';
 
-// Scroll to top helper on navigation
+// Scroll to the top whenever the page changes
 function ScrollToTop() {
   const { pathname } = useLocation();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
   return null;
 }
 
 export default function App() {
   return (
     <AuthProvider>
-      <Router>
+      {/* GitHub Pages repository base path */}
+      <Router basename="/c">
         <ScrollToTop />
+
         <div className="d-flex flex-column min-vh-100">
           <Navbar />
+
           <main className="flex-grow-1">
             <Routes>
               {/* Public Routes */}
               <Route path="/" element={<HomePage />} />
-              <Route path="/explore" element={<ExploreItemsPage />} />
-              <Route path="/items/:id" element={<ItemDetailPage />} />
-              <Route path="/community-requests" element={<CommunityRequestsPage />} />
-              <Route path="/recycling-map" element={<RecyclingMapPage />} />
-              <Route path="/impact" element={<ImpactDashboardPage />} />
-              <Route path="/login" element={<LoginPage />} />
-              <Route path="/register" element={<RegisterPage />} />
+
+              <Route
+                path="/explore"
+                element={<ExploreItemsPage />}
+              />
+
+              <Route
+                path="/items/:id"
+                element={<ItemDetailPage />}
+              />
+
+              <Route
+                path="/community-requests"
+                element={<CommunityRequestsPage />}
+              />
+
+              <Route
+                path="/recycling-map"
+                element={<RecyclingMapPage />}
+              />
+
+              <Route
+                path="/impact"
+                element={<ImpactDashboardPage />}
+              />
+
+              <Route
+                path="/login"
+                element={<LoginPage />}
+              />
+
+              <Route
+                path="/register"
+                element={<RegisterPage />}
+              />
 
               {/* Protected User Routes */}
               <Route
@@ -59,6 +99,7 @@ export default function App() {
                   </ProtectedRoute>
                 }
               />
+
               <Route
                 path="/items/:id/edit"
                 element={
@@ -67,6 +108,7 @@ export default function App() {
                   </ProtectedRoute>
                 }
               />
+
               <Route
                 path="/profile"
                 element={
@@ -86,10 +128,14 @@ export default function App() {
                 }
               />
 
-              {/* 404 Catch-All */}
-              <Route path="*" element={<NotFoundPage />} />
+              {/* 404 Page */}
+              <Route
+                path="*"
+                element={<NotFoundPage />}
+              />
             </Routes>
           </main>
+
           <Footer />
         </div>
       </Router>
