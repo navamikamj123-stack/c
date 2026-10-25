@@ -1,0 +1,268 @@
+{
+  "users": [
+    {
+      "_id": "654321000000000000000001",
+      "name": "EcoConnect Admin",
+      "email": "admin@ecoconnect.org",
+      "password": "$2b$10$iEO1G/mNcU/e3IXUwxBJdOmu1k6tTLjoB4PW0loSZH4N49LPlUpXy",
+      "role": "admin",
+      "location": "Green Valley District",
+      "bio": "Platform coordinator overseeing community sustainability and verification.",
+      "createdAt": "2026-09-01T10:00:00.000Z"
+    },
+    {
+      "_id": "654321000000000000000002",
+      "name": "Sarah Jenkins",
+      "email": "sarah@ecoconnect.org",
+      "password": "$2b$10$iEO1G/mNcU/e3IXUwxBJdOnmZUxnHPIhwfAFZeBp54kq/VTP9TRYa",
+      "role": "user",
+      "location": "Maplewood North",
+      "bio": "Urban gardener, zero-waste enthusiast, giving preloved furniture and books new life.",
+      "createdAt": "2026-09-10T11:30:00.000Z"
+    },
+    {
+      "_id": "654321000000000000000003",
+      "name": "David Chen",
+      "email": "david@ecoconnect.org",
+      "password": "$2b$10$iEO1G/mNcU/e3IXUwxBJdOnmZUxnHPIhwfAFZeBp54kq/VTP9TRYa",
+      "role": "user",
+      "location": "Riverside Commons",
+      "bio": "College student sharing extra textbooks and electronics to minimize e-waste.",
+      "createdAt": "2026-09-15T14:20:00.000Z"
+    },
+    {
+      "_id": "user_1792839549923h9dmp",
+      "name": "nava",
+      "email": "nava123@gmail.com",
+      "password": "$2b$10$OzGBtLGw.9gXsgUYFGJlj.kAvtPsHRYyhxiDLe.nueHtPYRA28uuW",
+      "role": "user",
+      "location": "Municipal Jal Bhawan, Central Control Room, Ward 1",
+      "bio": "EcoConnect community member.",
+      "phone": "",
+      "createdAt": "2026-10-24T10:59:09.923Z"
+    }
+  ],
+  "items": [
+    {
+      "_id": "item_1792839700405d43th",
+      "title": "wooden box",
+      "category": "Other",
+      "description": "clean and neat",
+      "condition": "Gently Used",
+      "imageUrl": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=800&q=80",
+      "location": "Municipal Jal Bhawan, Central Control Room, Ward 1",
+      "contactPreference": "In-app Requests Only",
+      "status": "Available",
+      "donor": "user_1792839549923h9dmp",
+      "donorName": "nava",
+      "donorEmail": "nava123@gmail.com",
+      "recipient": null,
+      "recipientName": null,
+      "estimatedWasteDivertedKg": 3,
+      "completedAt": null,
+      "createdAt": "2026-10-24T11:01:40.405Z"
+    },
+    {
+      "_id": "item_1792839625456s5lte",
+      "title": "alice in wonderland",
+      "category": "Books",
+      "description": "good condition",
+      "condition": "Like New",
+      "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+      "location": "Municipal Jal Bhawan, Central Control Room, Ward 1",
+      "contactPreference": "In-app Requests Only",
+      "status": "Available",
+      "donor": "user_1792839549923h9dmp",
+      "donorName": "nava",
+      "donorEmail": "nava123@gmail.com",
+      "recipient": null,
+      "recipientName": null,
+      "estimatedWasteDivertedKg": 1.8,
+      "completedAt": null,
+      "createdAt": "2026-10-24T11:00:25.456Z"
+    },
+    {
+      "_id": "654321000000000000000101",
+      "title": "Solid Pine Study Desk & Chair",
+      "category": "Furniture",
+      "description": "Sturdy natural pine desk with 2 smooth-gliding drawers and a matching ergonomic chair. Ideal for a student study setup.",
+      "condition": "Gently Used",
+      "imageUrl": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=800&q=80",
+      "location": "Maplewood North (Near Central Park)",
+      "contactPreference": "In-app Requests Only",
+      "status": "Available",
+      "donor": "654321000000000000000002",
+      "donorName": "Sarah Jenkins",
+      "donorEmail": "sarah@ecoconnect.org",
+      "recipient": null,
+      "recipientName": null,
+      "estimatedWasteDivertedKg": 22,
+      "completedAt": null,
+      "createdAt": "2026-10-18T09:15:00.000Z"
+    },
+    {
+      "_id": "654321000000000000000102",
+      "title": "Calculus & College Physics Textbooks (Vol 1-2)",
+      "category": "Books",
+      "description": "Comprehensive college textbooks in excellent condition. No highlights or torn pages. Perfect for freshman engineering students.",
+      "condition": "Like New",
+      "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+      "location": "Riverside Commons Campus Area",
+      "contactPreference": "In-app Requests Only",
+      "status": "Available",
+      "donor": "654321000000000000000003",
+      "donorName": "David Chen",
+      "donorEmail": "david@ecoconnect.org",
+      "recipient": null,
+      "recipientName": null,
+      "estimatedWasteDivertedKg": 3.5,
+      "completedAt": null,
+      "createdAt": "2026-10-19T14:30:00.000Z"
+    },
+    {
+      "_id": "654321000000000000000103",
+      "title": "Dell 24\" UltraSharp IPS Monitor with HDMI",
+      "category": "Electronics",
+      "description": "Tested and fully working 1080p IPS display with adjustable height stand and power cable. Replaced due to laptop upgrade.",
+      "condition": "Gently Used",
+      "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+      "location": "Downtown Tech Hub",
+      "contactPreference": "In-app Requests Only",
+      "status": "Available",
+      "donor": "654321000000000000000002",
+      "donorName": "Sarah Jenkins",
+      "donorEmail": "sarah@ecoconnect.org",
+      "recipient": null,
+      "recipientName": null,
+      "estimatedWasteDivertedKg": 5.8,
+      "completedAt": null,
+      "createdAt": "2026-10-20T11:00:00.000Z"
+    },
+    {
+      "_id": "654321000000000000000104",
+      "title": "Warm Winter Coats & Woolen Sweaters (Size M/L)",
+      "category": "Clothes",
+      "description": "Clean, fresh winter apparel bundle including an insulated navy parka and two comfortable woolen knit pullovers.",
+      "condition": "Like New",
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80",
+      "location": "Green Valley District",
+      "contactPreference": "In-app Requests Only",
+      "status": "Completed",
+      "donor": "654321000000000000000002",
+      "donorName": "Sarah Jenkins",
+      "donorEmail": "sarah@ecoconnect.org",
+      "recipient": "654321000000000000000003",
+      "recipientName": "David Chen",
+      "estimatedWasteDivertedKg": 3.2,
+      "completedAt": "2026-10-21T16:00:00.000Z",
+      "createdAt": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "_id": "654321000000000000000105",
+      "title": "Complete Art & Architecture Sketching Kit",
+      "category": "School Supplies",
+      "description": "Includes professional drafting pencils, T-square, acrylic rulers, drawing clips, and archival paper pads.",
+      "condition": "Like New",
+      "imageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80",
+      "location": "Eastside Arts Quarter",
+      "contactPreference": "In-app Requests Only",
+      "status": "Requested",
+      "donor": "654321000000000000000003",
+      "donorName": "David Chen",
+      "donorEmail": "david@ecoconnect.org",
+      "recipient": null,
+      "recipientName": null,
+      "estimatedWasteDivertedKg": 1.5,
+      "completedAt": null,
+      "createdAt": "2026-10-22T08:45:00.000Z"
+    }
+  ],
+  "itemRequests": [
+    {
+      "_id": "req_1792839744937i62tp",
+      "item": "654321000000000000000105",
+      "itemTitle": "Complete Art & Architecture Sketching Kit",
+      "requester": "user_1792839549923h9dmp",
+      "requesterName": "nava",
+      "requesterEmail": "nava123@gmail.com",
+      "donor": "654321000000000000000003",
+      "message": "Hi David Chen, I would love to reuse this item and can arrange pickup in Eastside Arts Quarter at your convenience.",
+      "status": "Pending",
+      "createdAt": "2026-10-24T11:02:24.937Z"
+    },
+    {
+      "_id": "654321000000000000000201",
+      "item": "654321000000000000000104",
+      "itemTitle": "Warm Winter Coats & Woolen Sweaters (Size M/L)",
+      "requester": "654321000000000000000003",
+      "requesterName": "David Chen",
+      "requesterEmail": "david@ecoconnect.org",
+      "donor": "654321000000000000000002",
+      "message": "Hello Sarah! I am volunteering with local shelter drives and would love to collect these warm coats.",
+      "status": "Completed",
+      "createdAt": "2026-10-16T12:00:00.000Z"
+    }
+  ],
+  "communityRequests": [
+    {
+      "_id": "654321000000000000000301",
+      "title": "Need a Working Microwave for Community Kitchen",
+      "category": "Electronics",
+      "description": "Our non-profit youth community center is looking for a clean, working microwave oven to prepare after-school warm snacks.",
+      "location": "Westend Community Hall",
+      "imageUrl": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80",
+      "urgency": "High",
+      "requester": "654321000000000000000003",
+      "requesterName": "David Chen",
+      "requesterEmail": "david@ecoconnect.org",
+      "status": "Open",
+      "offers": [
+        {
+          "donorId": "654321000000000000000002",
+          "donorName": "Sarah Jenkins",
+          "donorEmail": "sarah@ecoconnect.org",
+          "message": "Hi David! We upgraded our office lunchroom and have an 800W Panasonic microwave ready for pickup!",
+          "offeredAt": "2026-10-21T18:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-10-19T09:00:00.000Z"
+    },
+    {
+      "_id": "654321000000000000000302",
+      "title": "Looking for Children's Story Books & Novels",
+      "category": "Books",
+      "description": "Creating a mini street library box for neighborhood kids. Any illustrated picture books or middle-grade novels are welcome.",
+      "location": "Green Valley District",
+      "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
+      "urgency": "Medium",
+      "requester": "654321000000000000000002",
+      "requesterName": "Sarah Jenkins",
+      "requesterEmail": "sarah@ecoconnect.org",
+      "status": "Open",
+      "offers": [
+        {
+          "donorId": "user_1792839549923h9dmp",
+          "donorName": "nava",
+          "donorEmail": "nava123@gmail.com",
+          "message": "Hi Sarah Jenkins! I have a matching item in great condition that I can pass along to help.",
+          "offeredAt": "2026-10-24T11:03:11.762Z"
+        }
+      ],
+      "createdAt": "2026-10-21T14:15:00.000Z"
+    }
+  ],
+  "reports": [
+    {
+      "_id": "654321000000000000000401",
+      "targetType": "Item",
+      "targetId": "654321000000000000000101",
+      "targetTitle": "Solid Pine Study Desk & Chair",
+      "reporter": "654321000000000000000003",
+      "reporterName": "David Chen",
+      "reason": "Question regarding pickup access during weekend hours.",
+      "status": "Reviewed",
+      "resolutionNotes": "Clarified with donor; listing details updated with parking instructions.",
+      "createdAt": "2026-10-20T10:00:00.000Z"
+    }
+  ]
+}
